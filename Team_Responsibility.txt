@@ -1,6 +1,6 @@
 AI-ResumeSearch/
 │
-├── Backend/                         # Kiran (Integration)
+├── Backend/                         # Kiran (Core Integration)
 │   │
 │   ├── main.py
 │   ├── config.py
