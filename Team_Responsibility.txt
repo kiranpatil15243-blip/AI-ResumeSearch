@@ -49,7 +49,7 @@ AI-ResumeSearch/
 │   └── package.json
 │
 │
-├── Middleware/                      # Optional Streamlit Demo
+├── Middleware/                      # Optional for testing on Streamlit 
 │   ├── app.py
 │   └── requirements.txt
 │
