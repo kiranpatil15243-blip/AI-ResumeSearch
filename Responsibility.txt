@@ -1,0 +1,58 @@
+AI-ResumeSearch/
+│
+├── Backend/                         # Kiran (Core Integration)
+│   │
+│   ├── main.py
+│   ├── config.py
+│   │
+│   ├── routes/
+│   │   ├── __init__.py
+│   │   ├── upload.py
+│   │   ├── search.py
+│   │   └── model_route.py
+│   │
+│   ├── services/
+│   │   ├── __init__.py
+│   │   ├── integration.py
+│   │   └── utils.py
+│   │
+│   ├── ml_model/                    # Yash & Shri Jaya
+│   │   ├── __init__.py
+│   │   ├── train_model.py
+│   │   ├── predict.py
+│   │   ├── preprocessing.py
+│   │   └── saved_model.pkl
+│   │
+│   ├── embeddings/                  # Shreyas & Amulya
+│   │   ├── __init__.py
+│   │   ├── embeddings.py
+│   │   ├── vector_store.py
+│   │   ├── semantic_search.py
+│   │   └── faiss_index.index
+│   │
+│   ├── data/
+│   │   └── resumes/
+│   │
+│   └── requirements.txt
+│
+│
+├── Frontend/                        # Rohit
+│   │
+│   ├── public/
+│   │
+│   ├── src/
+│   │   ├── components/
+│   │   ├── services/
+│   │   ├── App.js
+│   │   └── index.js
+│   │
+│   └── package.json
+│
+│
+├── Middleware/                      # Optional Streamlit Demo
+│   ├── app.py
+│   └── requirements.txt
+│
+│
+├── README.md
+└── .gitignore
